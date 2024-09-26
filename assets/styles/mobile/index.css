@@ -1,0 +1,150 @@
+*{
+    margin:0px
+}
+
+.menuColor{
+    background-color: #2563eb;
+    color: white;
+}
+
+.navbar{
+
+    --bs-navbar-padding-y:0rem;
+
+}
+
+
+.navbar-nav .nav-link:hover {
+    text-decoration: underline; /* Añade un subrayado al texto */
+  }
+
+
+
+.mainContainer{
+    background-color: #3b82f6;
+    width: 100%;
+    height: auto;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:30px;
+}
+
+.mainContainer h1{
+    font-size: 2rem;
+}
+
+.mainContainer p{
+    font-size: 1.2rem;
+}
+
+.mainContainer a{
+    color: white;
+    text-decoration: none;
+}
+
+.mainContainer a:nth-child(3){
+    padding: 5px;
+    width: 120px;
+    background-color: white;
+    border-radius: 5px;
+    color: #3b82f6 ;
+    margin-bottom: 13px;
+    transition: 0.3s;
+}
+
+.mainContainer a:nth-child(4){
+    padding: 5px;
+    width: 120px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.mainContainer a:nth-child(4):hover{
+    background-color: #60a5fa;
+}
+
+.mainContainer a:nth-child(3):hover{
+    background-color: #eff6ff;
+}
+
+
+
+.mision{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 30px;
+    text-align: center;
+}
+
+.mision h2{
+    color: #2563eb;
+}
+
+.donaciones{
+    background-color: #eff6ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    
+}
+
+.donacionesBoton{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+
+
+.icon-bg{
+    font-size: 1.5rem;
+    background-color: #2563eb ;
+    padding: 5px; /* Espaciado alrededor del icono */
+    border-radius: 7px; /* Bordes redondeados */
+    width: 50px;
+    text-align: center;
+    color:white
+}
+
+.donacionesBoton h3{
+    color:#2563eb;
+    font-weight: 700;
+}
+
+.donaciones{
+    padding:20px
+    
+
+}
+
+.donaciones a{
+    padding: 10px;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.donaciones a:hover{
+    background-color: #1d4ed8;
+}
+
+footer p{
+    margin: 30px;
+    font-size: 0.9rem;
+    text-align: center;
+}

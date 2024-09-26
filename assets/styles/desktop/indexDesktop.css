@@ -1,0 +1,131 @@
+*{
+    margin:0px
+}
+
+.menuColor{
+    background-color: #2563eb;
+    color: white;
+}
+
+.navbar{
+
+    --bs-navbar-padding-y:0rem;
+
+}
+
+
+
+.mainContainer{
+    background-color: #3b82f6;
+    width: 100%;
+    height: auto;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:30px;
+}
+
+
+
+.mainContainer h1{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.mainContainer p{
+    font-size: 1.2rem;
+    padding: 0px 400px;
+}
+
+.mainContainer a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.mainContainer a:nth-child(3){
+    padding: 5px;
+    width: 120px;
+    background-color: white;
+    border-radius: 5px;
+    color: #3b82f6 ;
+    margin-bottom: 13px;
+    
+}
+
+.mainContainer a:nth-child(4){
+    padding: 5px;
+    width: 120px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.mision{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 30px 300px;
+    text-align: center;
+}
+
+.mision h2{
+    color: #2563eb;
+}
+
+.donaciones{
+    background-color: #eff6ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 0px 100px;
+    
+}
+
+.donacionesBoton{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+
+
+.icon-bg{
+    font-size: 1.5rem;
+    background-color: #2563eb ;
+    padding: 5px; /* Espaciado alrededor del icono */
+    border-radius: 7px; /* Bordes redondeados */
+    width: 50px;
+    text-align: center;
+    color:white
+}
+
+.donacionesBoton h3{
+    color:#2563eb;
+    font-weight: 700;
+}
+
+
+
+.donaciones a{
+    padding: 10px;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+}
+
+footer p{
+    margin: 30px;
+    font-size: 0.9rem;
+    text-align: center;
+}

@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+}
+
+
+.menuColor{
+    background-color: #2563eb;
+    color: white;
+}
+
+.navbar{
+
+    --bs-navbar-padding-y:0rem;
+
+}
+
+footer p{
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+main{
+    
+    margin: 40px 300px;
+}
+.options{
+    margin-bottom: 10px;
+}
+
+.options a{
+    text-decoration: none;
+    color: #a6a6a6;
+    font-size: 1.05rem;
+}
+
+.mainCard{
+    background-color: #eff6ff;
+    padding: 30px;
+    border-radius: 10px;
+    
+    
+}
+
+
+.mainCard h1{
+    color:#2563eb;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.list{
+    padding: 0px;
+}
+
+.list__button p{
+
+    margin-bottom: 0px;
+    color: #a6a6a6;
+    
+
+}
+
+
+.list__button{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-bottom: 1px solid #a6a6a6
+}
+
+.list__item{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    overflow: hidden;
+}
+
+.list__item--click{
+    cursor: pointer;
+}
+
+
+.showInfo{
+    transition: height 0.3s;
+    height: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.showInfo textarea {
+    width: 98%;
+    box-sizing: border-box; /* Asegura que el padding y el borde se incluyan en el ancho total */
+    resize: none;
+}
+
+.list__arrow{
+    transition: transform 0.3s;
+}
+
+.arrow .list__arrow{ 
+    transform: rotate(90deg);
+
+}
+.default-option {
+    color: #a6a6a6; /* Cambia '#a6a6a6' por el color que desees */
+}
+
+.addButtonCard{
+    display: flex;
+    justify-content: center;
+}
+
+.addButton{
+    background-color: #2563eb;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+    
+}
+
+.addButton:hover{
+    background-color: #1e4bbf;
+}

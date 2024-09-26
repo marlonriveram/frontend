@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+}
+.menuColor{
+    background-color: #2563eb;
+    color: white;
+}
+
+.navbar{
+
+    --bs-navbar-padding-y:0rem;
+
+}
+
+footer p{
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.addButtonCard{
+    display: flex;
+    justify-content: center;
+}
+
+.addButton{
+    background-color: #2563eb;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+    
+}
+
+.addButton:hover{
+    background-color: #1e4bbf;
+}

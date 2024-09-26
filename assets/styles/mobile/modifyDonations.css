@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+}
+
+
+
+.menuColor{
+    background-color: #2563eb;
+    color: white;
+}
+
+.navbar{
+
+    --bs-navbar-padding-y:0rem;
+
+}
+
+.navbar-nav .nav-link:hover {
+    text-decoration: underline; /* Añade un subrayado al texto */
+  }
+
+
+footer p{
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+main{
+    
+    margin: 40px 20px;
+}
+.options{
+    margin-bottom: 10px;
+}
+
+.options a{
+    text-decoration: none;
+    color: #a6a6a6;
+    font-size: 1.05rem;
+}
+
+
+
+.mainCard{
+    background-color: #eff6ff;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+
+.mainCard h1{
+    color:#2563eb;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.showData{
+    /* background-color: white; */
+    width: 100%;
+    
+    
+}
+
+.showData p{
+    padding: 5px;
+
+}
